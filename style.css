@@ -112,7 +112,7 @@ form {
   box-shadow: 0 10px 20px rgb(255, 132, 246, 1);
 }
 
-/* MediaQuery */
+/* MediaQuery default-state */
 @media (min-width: 600px) {
   body {
     display: flex;
@@ -160,4 +160,28 @@ form {
 
 .p-bottom {
   margin-top: 17rem;
+}
+
+/* MediaQuery success-state */
+@media (min-width: 600px) {
+  #success-state {
+    box-shadow: 0 0 40px rgb(144, 142, 142);
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    padding: 1.5rem;
+  }
+
+  .success--img {
+    margin: 0;
+  }
+
+  #success-state .content {
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .p-bottom {
+    margin: 0;
+  }
 }

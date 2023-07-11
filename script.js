@@ -30,7 +30,6 @@ function displayErrorMessage() {
 }
 
 function displaySuccessMessage(emailId) {
-  console.log("SUCCESS" + emailId.value);
   defaultState.style.display = "none";
   document.getElementById("success-state").style.display = "flex";
   document.getElementById("email-display").innerHTML = emailId.value;
